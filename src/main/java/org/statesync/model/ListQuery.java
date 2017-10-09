@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class ListQuery {
-	public String search;
+	public String search = "";
 	public String sortBy;
 	public String sortDirection;
 	public int page;
