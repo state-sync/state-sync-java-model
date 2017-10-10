@@ -18,4 +18,9 @@ public class AnnotatedItem<Item> {
 		this.data = item;
 		this.permissions = JReducer.toMap(permissions);
 	}
+
+	public AnnotatedItem(final Item item, final String... permissions) {
+		this.data = item;
+		this.permissions = JReducer.toMap(permissions);
+	}
 }
