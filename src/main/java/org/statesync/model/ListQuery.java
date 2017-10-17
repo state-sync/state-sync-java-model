@@ -9,6 +9,7 @@ public class ListQuery {
 	public String sortDirection;
 	public int page;
 	public int pageSize = 5;
+	public String zoneId;
 
 	public String[] searchKeywords() {
 		return this.search == null ? new String[0] : this.search.split("\\s");
